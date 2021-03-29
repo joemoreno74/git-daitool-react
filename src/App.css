@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,6 +29,73 @@
   color: #61dafb;
 }
 
+.HomeImage {
+  height:400px;
+  width:1265px;
+}
+
+.navbar-dark {
+  background-color: #FF723D;
+
+}
+.navbar-light {
+  background-color: #92D2D9;
+
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card-line-up {
+  width: "10rem"
+}
+
+
+.card-body  {
+  font: 200 3.25rem "Mulish";
+  color: white; 
+}
+
+.card-body-product  {
+  font: 200 2.25rem "Mulish";
+  color: black; 
+}
+
+.card-link  {
+  font: 500 1.25rem "Mulish";
+  color: orange; 
+
+}
+
+.card-style {
+  max-width: 80%;
+}
+
+.card-style-blog {
+  max-width: 50%;
+}
+
+.card-style-products {
+  max-width: 20%;
+}
+
+.MenuAll {
+  font: 500 1.25rem "Mulish";
+  color: white; 
+  text-align: left;
+}
+
+.originalCost {
+    text-decoration: line-through;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  filter: invert(1)
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +104,4 @@
     transform: rotate(360deg);
   }
 }
+
